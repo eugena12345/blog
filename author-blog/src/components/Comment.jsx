@@ -21,7 +21,7 @@ const CommentContainer = styled.div`
   flex-direction: column;
   box-sizing: border-box;
   width: 100%;
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  border: 2px solid #6c5ce7;
   border-radius: 10px;
   margin-right: 5px;
   padding: 3px;

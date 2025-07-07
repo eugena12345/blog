@@ -16,7 +16,7 @@ const HeaderContainer = styled.header`
   align-items: center;
   justify-content: center;
   height: 90px;
-  background-color: #6c5ce7; /* Сиреневый цвет */
+  background-color: #6c5ce7;
   padding: 0;
   margin: 0;
   position: fixed;
@@ -31,7 +31,7 @@ const MaxWidth = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 90px;
-  background-color: #6c5ce7; /* Сиреневый цвет */
+  background-color: #6c5ce7;
   padding: 0;
   margin: 0;
 `;
@@ -39,7 +39,7 @@ const MaxWidth = styled.div`
 const Logo = styled.div`
   font-size: 60px;
   font-weight: bold;
-  color: #ffffff; /* Белый цвет */
+  color: #ffffff;
   cursor: pointer;
   padding-left: 10px;
   display: flex;
@@ -50,7 +50,7 @@ const Logo = styled.div`
 const P = styled.p`
   font-size: 16px;
   margin: 0;
-  color: #ffffff; /* Белый цвет */
+  color: #ffffff;
 `;
 const PSmall = styled.p`
   font-size: 20px;
@@ -64,12 +64,12 @@ const NavMenu = styled.nav`
 
 const NavItem = styled.a`
   font-size: 18px;
-  color: #ffffff; /* Белый цвет */
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 
   &:hover {
-    color: #dfe6e9; /* Светло-серый при наведении */
+    color: #dfe6e9;
   }
 `;
 
@@ -90,8 +90,8 @@ const LoginBlock = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: #ffffff; /* Белый фон */
-  color: #6c5ce7; /* Сиреневый текст */
+  background-color: #ffffff; 
+  color: #6c5ce7;
   border: none;
   padding: 7px 15px;
   font-size: 16px;
@@ -100,7 +100,7 @@ const Button = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #dfe6e9; /* Светло-серый при наведении */
+    background-color: #dfe6e9;
   }
 `;
 

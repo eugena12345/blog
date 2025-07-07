@@ -4,20 +4,19 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Card = styled.div`
-  background-color: #ffffff; /* Белый фон */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  background-color: #ffffff;
+  border: 2px solid #6c5ce7;
   border-radius: 10px;
   padding: 20px;
-  width: calc(33.33% - 40px); /* 3 карточки в ряд с учетом gap */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  width: calc(33.33% - 40px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   &:hover {
-    //cursor: none;
-    box-shadow: 0 5px 9px rgba(108, 92, 231, 0.43); /* Легкая тень */
+    box-shadow: 0 5px 9px rgba(108, 92, 231, 0.43);
     color: red;
   }
 
@@ -34,16 +33,16 @@ const Card = styled.div`
   }
 
   @media (max-width: 900px) {
-    width: calc(50% - 40px); /* 2 карточки в ряд на меньших экранах */
+    width: calc(50% - 40px);
   }
 
   @media (max-width: 600px) {
-    width: 100%; /* 1 карточка в ряд на маленьких экранах */
+    width: 100%;
   }
 `;
 
 const CardTitle = styled.h3`
-  color: #6c5ce7; /* Сиреневый текст */
+  color: #6c5ce7;
   font-size: 18px;
   margin-bottom: 10px;
 `;

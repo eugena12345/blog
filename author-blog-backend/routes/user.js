@@ -1,20 +1,9 @@
-//const { register, login, getUsers, getRoles, updateUser, deleteUser } = require('./controllers/user');
 const userMap = require('../helpers/userMap');
 const authenticated = require('../middlewares/authonticated');
 const hasRole = require('../middlewares/hasRole');
 const roles = require('../constants/roles');
 const express = require('express');
 const { getUsers, getRoles, updateUser, deleteUser } = require('./../controllers/user');
-
-
-// const { addPost,
-//     updatePost,
-//     deletePost,
-//     getPosts,
-//     getPost } = require('./controllers/posts');
-// const mapPost = require('./helpers/mapPost');
-// const { addComment, deleteComment } = require('./controllers/comments');
-// const mapComment = require('./helpers/mapComment');
 
 const router = express.Router({ mergeParams: true })
 

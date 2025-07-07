@@ -9,7 +9,6 @@ export const savePostAsync =
 
     return saveRequest.then(
       (updatedPostData) => {
-        console.log('updatedPostData.data', updatedPostData.data)
         dispatch(setPostData(updatedPostData.data));
         return updatedPostData.data;
       }

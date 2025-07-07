@@ -1,5 +1,3 @@
-//const { register, login, getUsers, getRoles, updateUser, deleteUser } = require('./controllers/user');
-//const userMap = require('./helpers/userMap');
 const authenticated = require('../middlewares/authonticated');
 const hasRole = require('../middlewares/hasRole');
 const roles = require('../constants/roles');

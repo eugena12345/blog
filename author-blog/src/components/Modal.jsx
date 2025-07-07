@@ -14,11 +14,11 @@ const ModalOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
-  display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')}; /* Показать/скрыть */
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Чтобы перекрывал остальной контент */
+  z-index: 1000; 
 `;
 
 const ModalContainer = styled.div`
@@ -26,16 +26,16 @@ const ModalContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff; /* Белый фон */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  background-color: #ffffff; 
+  border: 2px solid #6c5ce7; 
   border-radius: 10px;
   padding: 30px;
   width: 300px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
 const ModalTitle = styled.h2`
-  color: #6c5ce7; /* Сиреневый текст */
+  color: #6c5ce7;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -62,13 +62,13 @@ const ModalButton = styled.button`
 `;
 
 const DeleteButton = styled(ModalButton)`
-  background-color: #e74c3c; /* Красный фон */
-  color: #ffffff; /* Белый текст */
+  background-color: #e74c3c;
+  color: #ffffff;
 `;
 
 const CancelButton = styled(ModalButton)`
-  background-color: #6c5ce7; /* Сиреневый фон */
-  color: #ffffff; /* Белый текст */
+  background-color: #6c5ce7; 
+  color: #ffffff;
 `;
 
 const Modal = () => {

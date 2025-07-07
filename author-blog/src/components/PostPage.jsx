@@ -15,12 +15,9 @@ import { ROLEIDS } from '../constants/roleId';
 const PostPageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  //width: 100vw;
-  // height: 100vh;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  // background-color: #ffffff; /* Белый фон */
   padding: 100px 30px;
   box-sizing: border-box;
 `;

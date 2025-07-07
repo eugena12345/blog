@@ -5,8 +5,8 @@ const FooterContainer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #6c5ce7; /* Сиреневый цвет */
-  color: #ffffff; /* Белый текст */
+  background-color: #6c5ce7;
+  color: #ffffff;
   padding: 10px;
   text-align: center;
 
@@ -35,13 +35,13 @@ const ContactsBlock = styled.div`
 `;
 
 const ContactLink = styled.a`
-  color: #ffffff; /* Белый цвет */
+  color: #ffffff;
   text-decoration: none;
   font-size: 14px;
   cursor: pointer;
 
   &:hover {
-    color: #dfe6e9; /* Светло-серый при наведении */
+    color: #dfe6e9;
   }
 `;
 

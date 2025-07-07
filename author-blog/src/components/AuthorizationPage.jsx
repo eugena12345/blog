@@ -16,16 +16,16 @@ const AuthContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff; /* Белый фон */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  background-color: #ffffff;
+  border: 2px solid #6c5ce7;
   border-radius: 10px;
   padding: 30px;
   width: 300px;
-  box-shadow: 0 4px 8px rgba(55, 24, 93, 0.47); /* Легкая тень */
+  box-shadow: 0 4px 8px rgba(55, 24, 93, 0.47);
 `;
 
 const Title = styled.h2`
-  color: #6c5ce7; /* Сиреневый текст */
+  color: #6c5ce7;
   font-size: 24px;
   margin-bottom: 20px;
 `;
@@ -34,21 +34,21 @@ const InputField = styled.input`
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #6c5ce7; /* Сиреневая рамка */
+  border: 1px solid #6c5ce7;
   border-radius: 5px;
   font-size: 16px;
 
   &:focus {
     outline: none;
-    border-color: #a29bfe; /* Более светлый оттенок при фокусе */
+    border-color: #a29bfe;
   }
 `;
 
 const LoginButton = styled.button`
   width: 100%;
   padding: 10px;
-  background-color: #6c5ce7; /* Сиреневый фон */
-  color: #ffffff; /* Белый текст */
+  background-color: #6c5ce7;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -56,7 +56,7 @@ const LoginButton = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #a29bfe; /* Более светлый оттенок при наведении */
+    background-color: #a29bfe;
   }
   &:disabled {
     background-color: rgb(196, 193, 241);
@@ -113,7 +113,6 @@ const AuthorizationPage = () => {
         setServerError(error);
         return;
       }
-      console.log('user: ', user)
       dispatch(setUser(user));
       sessionStorage.setItem('userData', JSON.stringify(user));
     });

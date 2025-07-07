@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import UserTitle from './UserTitle';
 import User from './User';
-//import { useServerRequest } from './../hooks';
 import PrivateContent from './PrivateContent';
 import { ROLEIDS } from '../constants/roleId';
 import { checkAccess } from '../utils/checkAccess';
@@ -24,7 +23,7 @@ const UserListContainer = styled.div`
 `;
 
 const Title = styled.h2`
-  color: #6c5ce7; /* Сиреневый текст */
+  color: #6c5ce7;
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
@@ -37,7 +36,6 @@ const Users = () => {
   const [shouldUsersUpdate, setShouldUsersUpdate] = useState(false);
 
   const userId = useSelector(selectUserRoleId);
-  //const requestServer = useServerRequest();
   const onUserRemove = (id) => {
     if (!checkAccess([ROLEIDS.ADMIN], userId)) {
       return;
@@ -63,9 +61,6 @@ const Users = () => {
       }
       setUsers(usersRes.data);
       setRoles(rolesRes.data.filter(({ id }) => id !== ROLEIDS.GUEST));
-      console.log('usersRes.data', usersRes.data);
-            console.log('rolesRes.data', rolesRes.data);
-
     });
   }, [shouldUsersUpdate]);
 

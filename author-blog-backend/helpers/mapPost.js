@@ -2,8 +2,6 @@ const { mongoose } = require("mongoose")
 const mapComment = require("./mapComment")
 
 module.exports = function (post) {
-    console.log('post ', post)
-    console.log('post.comments ', post.comments)
     return {
         id: post._id,
         title: post.title,

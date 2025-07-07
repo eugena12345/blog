@@ -10,25 +10,17 @@ import PropTypes from 'prop-types';
 import { TYPE } from './prop-type/propType';
 
 const CommentsContainer = styled.div`
-  //display: flex;
-  //flex-direction: column;
   width: 100%;
   max-width: 1200px;
   text-align: justify;
-  //align-items: center;
-  //justify-content: center;
-  // background-color: #ffffff; /* Белый фон */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  border: 2px solid #6c5ce7; 
   border-radius: 10px;
-  //margin: 30px;
   padding: 30px;
-
-  // box-shadow: 0 4px 8px rgba(55, 24, 93, 0.47); /* Легкая тень */
   box-sizing: border-box;
 `;
 
 const Title = styled.h2`
-  color: #6c5ce7; /* Сиреневый текст */
+  color: #6c5ce7;
   font-size: 24px;
   margin-bottom: 20px;
 `;
@@ -46,7 +38,7 @@ const NewCommet = styled.div`
     resize: none;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #6c5ce7; /* Сиреневая рамка */
+    border: 1px solid #6c5ce7;
     border-radius: 5px;
     font-size: 16px;
   }

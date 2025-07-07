@@ -5,20 +5,19 @@ const UserCard = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #ffffff; /* Белый фон */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  background-color: #ffffff;
+  border: 2px solid #6c5ce7;
   border-radius: 10px;
   padding: 10px;
   width: 100%;
   max-width: 1400px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   span {
     font-weight: bold;
     font-size: 14px;
-
     margin-right: 5px;
-    color: #6c5ce7; /* Сиреневый текст для меток */
+    color: #6c5ce7;
   }
 `;
 
@@ -30,7 +29,7 @@ const UserInfo = styled.div`
   span {
     font-weight: bold;
     margin-right: 5px;
-    color: #6c5ce7; /* Сиреневый текст для меток */
+    color: #6c5ce7;
   }
 `;
 

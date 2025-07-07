@@ -1,29 +1,3 @@
-// import js from "@eslint/js";
-// import globals from "globals";
-// import pluginReact from "eslint-plugin-react";
-// import { defineConfig } from "eslint/config";
-
-// export default defineConfig([
-//   { files: ["**/*.{js,mjs,cjs,jsx}"], plugins: { js }, extends: ["js/recommended"] },
-//   { files: ["**/*.{js,mjs,cjs,jsx}"], languageOptions: { globals: globals.browser } },
-//   pluginReact.configs.flat.recommended,
-// ]);
-
-// export default [
-//   {
-//     files: ["**/*.{js,jsx,ts,tsx}"],
-//     extends: [
-//       "eslint:recommended", // Базовые правила ESLint
-//       "plugin:react/recommended", // Правила для React
-//      // "plugin:@typescript-eslint/recommended", // Правила для TypeScript (если используется)
-//     ],
-//     rules: {
-//       "no-unused-vars": "warn", // Предупреждения о неиспользуемых переменных
-//       "react/prop-types": "off", // Отключение проверки PropTypes (если используете TypeScript)
-//     },
-//   },
-// ];
-
 import js from '@eslint/js';
 import globals from 'globals';
 import pluginReact from 'eslint-plugin-react';

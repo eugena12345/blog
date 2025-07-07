@@ -1,5 +1,4 @@
 module.exports = function (comment) {
-    console.log('comment ', comment)
     return {
         content: comment.content,
         author: comment.author.login,

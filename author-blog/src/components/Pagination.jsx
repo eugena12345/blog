@@ -13,9 +13,9 @@ const PageButton = styled.button`
   padding: 10px 15px;
   margin: 0 5px;
   background-color: ${({ active }) =>
-    active ? '#6c5ce7' : '#ffffff'}; /* Цвет фона */
-  color: ${({ active }) => (active ? '#ffffff' : '#6c5ce7')}; /* Цвет текста */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+    active ? '#6c5ce7' : '#ffffff'};
+  color: ${({ active }) => (active ? '#ffffff' : '#6c5ce7')};
+  border: 2px solid #6c5ce7;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
@@ -24,7 +24,7 @@ const PageButton = styled.button`
     color 0.3s ease;
 
   &:hover {
-    background-color: #a29bfe; /* Более светлый оттенок при наведении */
+    background-color: #a29bfe;
     color: #ffffff;
   }
 `;

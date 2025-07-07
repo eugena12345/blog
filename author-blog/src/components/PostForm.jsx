@@ -13,15 +13,10 @@ const PostFormContainer = styled.div`
   max-width: 1200px;
   gap: 10px;
   text-align: justify;
-  //align-items: center;
-  //justify-content: center;
-  // background-color: #ffffff; /* Белый фон */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  border: 2px solid #6c5ce7;
   border-radius: 10px;
-  //margin: 30px;
   padding: 30px;
 
-  // box-shadow: 0 4px 8px rgba(55, 24, 93, 0.47); /* Легкая тень */
   box-sizing: border-box;
 
   & img {
@@ -30,19 +25,13 @@ const PostFormContainer = styled.div`
   }
 
   & .content {
-    white-space: pre-wrap; /* Сохраняет пробелы и переносы строк */
-    border: 2px solid #6c5ce7; /* Сиреневая рамка */
+    white-space: pre-wrap;
+    border: 2px solid #6c5ce7;
     border-radius: 10px;
     min-height: 100px;
     width: 100%;
   }
 `;
-
-// const Title = styled.h2`
-//   color: #6c5ce7; /* Сиреневый текст */
-//   font-size: 24px;
-//   margin-bottom: 20px;
-// `;
 
 const ControlPanel = styled.div`
   display: flex;
@@ -59,7 +48,6 @@ const PublishedAt = styled.div`
   display: flex;
   gap: 10px;
   align-items: center;
-  // height: 100%;
 `;
 
 const PostForm = ({ post }) => {

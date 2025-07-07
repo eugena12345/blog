@@ -1,6 +1,5 @@
 import React, { useLayoutEffect } from 'react';
 import './App.css';
-//import styled from 'styled-components';
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -13,8 +12,6 @@ import { setUser } from './actions/set_user';
 import Modal from './components/Modal';
 import Main from './components/Main';
 
-// const Content = styled.div``;
-
 function App() {
   const dispatch = useDispatch();
   useLayoutEffect(() => {
@@ -25,7 +22,6 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Content> */}
       <Modal />
       <Routes>
         <Route path="/" element={<Main />} />
@@ -40,7 +36,6 @@ function App() {
           element={<div>Нет доступа или страница не существует</div>}
         />
       </Routes>
-      {/* </Content> */}
 
       <Footer />
     </>

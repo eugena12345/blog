@@ -11,20 +11,13 @@ import { selectUserRoleId } from '../selectors';
 import { TYPE } from './prop-type/propType';
 
 const PostContainer = styled.div`
-  //display: flex;
-  //flex-direction: column;
   width: 100%;
   max-width: 1200px;
   text-align: justify;
-  //align-items: center;
-  //justify-content: center;
-  // background-color: #ffffff; /* Белый фон */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  border: 2px solid #6c5ce7;
   border-radius: 10px;
-  //margin: 30px;
   padding: 30px;
 
-  // box-shadow: 0 4px 8px rgba(55, 24, 93, 0.47); /* Легкая тень */
   box-sizing: border-box;
 
   & img {
@@ -32,12 +25,12 @@ const PostContainer = styled.div`
     margin: 0 15px 10px 0;
   }
   & div {
-    white-space: pre-wrap; /* Сохраняет пробелы и переносы строк */
+    white-space: pre-wrap;
   }
 `;
 
 const Title = styled.h2`
-  color: #6c5ce7; /* Сиреневый текст */
+  color: #6c5ce7;
   font-size: 24px;
   margin-bottom: 20px;
 `;
@@ -57,14 +50,12 @@ const PublishedAt = styled.div`
   display: flex;
   gap: 10px;
   align-items: center;
-  // height: 100%;
 `;
 
 const PublishedAtPrivate = styled.div`
   display: flex;
   gap: 10px;
   align-items: center;
-  // height: 100%;
 `;
 
 const Post = ({ post }) => {

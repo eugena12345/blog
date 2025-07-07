@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import React, { useState } from 'react';
-//import { useServerRequest } from './../hooks/useServerRequest';
 import PropTypes from 'prop-types';
 import { TYPE } from './prop-type/propType';
 import { request } from './utils/request';
@@ -9,13 +8,13 @@ const UserCard = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #ffffff; /* Белый фон */
-  border: 2px solid #6c5ce7; /* Сиреневая рамка */
+  background-color: #ffffff;
+  border: 2px solid #6c5ce7;
   border-radius: 10px;
   padding: 10px;
   width: 100%;
   max-width: 1400px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 `;
 
@@ -27,21 +26,21 @@ const UserInfo = styled.div`
   span {
     font-weight: bold;
     margin-right: 5px;
-    color: #6c5ce7; /* Сиреневый текст для меток */
+    color: #6c5ce7;
   }
 `;
 
 const RoleSelect = styled.select`
   width: 100%;
   padding: 8px;
-  border: 1px solid #6c5ce7; /* Сиреневая рамка */
+  border: 1px solid #6c5ce7;
   border-radius: 5px;
   font-size: 14px;
   color: #333333;
 
   &:focus {
     outline: none;
-    border-color: #a29bfe; /* Более светлый оттенок при фокусе */
+    border-color: #a29bfe;
   }
 `;
 
@@ -53,8 +52,8 @@ const ActionButtons = styled.div`
 
 const SaveButton = styled.button`
   padding: 8px 12px;
-  background-color: #6c5ce7; /* Сиреневый фон */
-  color: #ffffff; /* Белый текст */
+  background-color: #6c5ce7;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   font-size: 14px;
@@ -62,19 +61,19 @@ const SaveButton = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #a29bfe; /* Более светлый оттенок при наведении */
+    background-color: #a29bfe;
   }
 
   &:disabled {
-    background-color: #a29bfe; /* Более светлый оттенок при наведении */
+    background-color: #a29bfe;
     cursor: not-allowed;
   }
 `;
 
 const DeleteButton = styled.button`
   padding: 8px 12px;
-  background-color: #e74c3c; /* Красный фон */
-  color: #ffffff; /* Белый текст */
+  background-color: #e74c3c;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   font-size: 14px;
@@ -82,15 +81,13 @@ const DeleteButton = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #c0392b; /* Темно-красный при наведении */
+    background-color: #c0392b;
   }
 `;
 
 const User = ({ user, roles, onUserRemove }) => {
   const [initialRoleId, setInitialRoleID] = useState(user.role);
   const [selectedRoleID, setSelectedRoleID] = useState(user.role);
-  //const dispatch = useDispatch();
-  //const requestServer = useServerRequest();
   const onUserRoleSave = (userId, newRoleId) => {
     request(`/api/users/${userId}`, 'PATCH' , {roleId: newRoleId}).then(() =>
       setInitialRoleID(newRoleId)
