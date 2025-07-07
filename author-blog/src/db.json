@@ -1,0 +1,550 @@
+{
+  "users": [
+    {
+      "id": "01",
+      "login": "author",
+      "password": "123456",
+      "registred_at": "2025-01-01",
+      "role_id": "0"
+    },
+    {
+      "login": "111111",
+      "password": "111111",
+      "registred_at": "2025-05-06 22:03",
+      "role_id": "2",
+      "id": "0SBMOD-"
+    },
+    {
+      "login": "lolo",
+      "password": "121212",
+      "registred_at": "2025-05-07 14:54",
+      "role_id": "1",
+      "id": "zFB8Fr4"
+    },
+    {
+      "login": "user",
+      "password": "111111",
+      "registred_at": "2025-05-08 14:07",
+      "role_id": "2",
+      "id": "dUUTGvI"
+    },
+    {
+      "login": "some",
+      "password": "222222",
+      "registred_at": "2025-05-08 20:26",
+      "role_id": "1",
+      "id": "9zBqBL4"
+    },
+    {
+      "login": "123",
+      "password": "123123",
+      "registred_at": "2025-05-08 22:42",
+      "role_id": "2",
+      "id": "GH2CTob"
+    }
+  ],
+  "roles": [
+    {
+      "name": "admin",
+      "id": "0"
+    },
+    {
+      "name": "moderator",
+      "id": "1"
+    },
+    {
+      "name": "reader",
+      "id": "2"
+    },
+    {
+      "name": "guest",
+      "id": "3"
+    }
+  ],
+  "posts": [
+    {
+      "id": "001",
+      "title": "!Как освоить программирование за 30 дней!!!",
+      "img_url": "https://img.goodfon.ru/wallpaper/nbig/d/1c/smailiki-zheltye-shary-ulybki.webp",
+      "published_at": "2023-09-01T10:00:00Z",
+      "content": "Программирование — это навык, который можно освоить за относительно короткий срок. Главное — правильно организовать свое время и ресурсы. Начните с базовых языков, таких как JavaScript или Python, и постепенно переходите к более сложным задачам. Не забывайте практиковаться ежедневно, решая задачи на платформах вроде LeetCode или CodeWars. Добавляю контент.\n\nновая строка\n\n\n\n\nдругая новая строка\n\n\nи еще одна"
+    },
+    {
+      "id": "002",
+      "title": "Почему TypeScript становится стандартом",
+      "img_url": "https://galaktika64.ru/wp-content/uploads/2024/10/informatiki-1024x649.png",
+      "published_at": "2023-09-02T12:30:00Z",
+      "content": "TypeScript набирает популярность благодаря своей способности добавлять статическую типизацию в JavaScript. Это помогает разработчикам находить ошибки на этапе написания кода, а не во время выполнения. Многие компании уже перешли на TypeScript, чтобы улучшить качество своих приложений и сделать код более поддерживаемым.\nРедактируется)"
+    },
+    {
+      "id": "003",
+      "title": "Современные тренды в дизайне интерфейсов",
+      "img_url": "https://timeweb.com/ru/community/article/ca/ca06fae69d6cab58b3364de8aef54fd4.jpg",
+      "published_at": "2023-08-25T09:45:00Z",
+      "content": "В 2023 году веб-дизайн движется в сторону минимализма и функциональности. Популярными становятся темные темы, микроанимации и адаптивный дизайн. Важно учитывать удобство пользователей и скорость загрузки страниц. Инструменты, такие как Figma и Adobe XD, помогают дизайнерам создавать современные интерфейсы."
+    },
+    {
+      "id": "004",
+      "title": "Как работать удаленно и оставаться продуктивным",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY8ZYQRv1tYwid4Ih_nA8wegNteao-GpTA7uWyx_CJXjnMNTFbzQwt8qo3Xk7D_RRegdM&usqp=CAU",
+      "published_at": "2023-07-15T14:20:00Z",
+      "content": "Удаленная работа требует дисциплины и правильной организации рабочего пространства. Используйте инструменты для управления задачами, такие как Trello или Notion, и следите за своим временем. Регулярные перерывы и физическая активность помогут сохранить продуктивность и здоровье. Не забывайте также поддерживать связь с коллегами через Zoom или Slack.\n\nВсем добра!"
+    },
+    {
+      "id": "005",
+      "title": "Искусственный интеллект в повседневной жизни",
+      "img_url": "https://perm.hse.ru/data/2018/02/07/1162144151/3master-software-developers-productivity.jpg",
+      "published_at": "2023-06-10T08:15:00Z",
+      "content": "AI становится неотъемлемой частью нашей жизни. От голосовых помощников до рекомендательных систем — технологии машинного обучения помогают нам решать повседневные задачи. Однако важно помнить о этических аспектах использования AI и обеспечивать защиту данных пользователей."
+    },
+    {
+      "id": "006",
+      "title": "Здоровый образ жизни для программистов",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiC5R60eR7IYf-DWeCpyTPBsiNMasgKU-rwQJd7PA1RfupTh5uXa04GLIThKOgFl9txzY&usqp=CAU",
+      "published_at": "2023-05-05T11:00:00Z",
+      "content": "Программисты часто сталкиваются с проблемами со здоровьем из-за малоподвижного образа жизни. Чтобы избежать этого, важно регулярно делать зарядку, правильно питаться и соблюдать режим сна. Также полезно использовать эргономичные кресла и столы для работы за компьютером."
+    },
+    {
+      "id": "007",
+      "title": "Как выбрать свой первый ноутбук для разработки",
+      "img_url": "https://www.auca.kg/uploads/%D0%A0%D1%83%D0%BA%D0%B8.jpg",
+      "published_at": "2023-04-01T13:45:00Z",
+      "content": "Выбор ноутбука для разработки зависит от ваших задач. Если вы работаете с веб-разработкой, достаточно процессора Intel i5 и 8 ГБ оперативной памяти. Для машинного обучения или работы с графикой потребуется более мощное оборудование. Обратите внимание на SSD-накопители для быстрой загрузки системы."
+    },
+    {
+      "id": "008",
+      "title": "Введение в квантовые вычисления",
+      "img_url": "https://s0.rbk.ru/v6_top_pics/resized/800xH/media/img/7/27/756171993555277.jpg",
+      "published_at": "2023-03-20T16:30:00Z",
+      "content": "Квантовые вычисления — это новая эра технологий, которая обещает революцию в области обработки данных. В отличие от классических компьютеров, квантовые используют кубиты, что позволяет решать сложные задачи гораздо быстрее. Однако технологии пока находятся в стадии развития."
+    },
+    {
+      "id": "009",
+      "title": "Как создать успешный блог",
+      "img_url": "https://s0.rbk.ru/v6_top_pics/resized/640xH/media/img/4/64/756578090133644.jpg",
+      "published_at": "2023-02-15T09:00:00Z",
+      "content": "Для создания успешного блога важно выбрать интересную тему и регулярно публиковать качественный контент. Используйте SEO-оптимизацию, чтобы ваши статьи находили в поисковых системах. Также важно взаимодействовать с аудиторией через комментарии и социальные сети."
+    },
+    {
+      "id": "010",
+      "title": "Основы кибербезопасности",
+      "img_url": "https://naked-science.ru/wp-content/uploads/2016/08/field_image_computer-programming_0-1024x683.jpeg",
+      "published_at": "2023-01-10T14:20:00Z",
+      "content": "Кибербезопасность становится все более важной в эпоху цифровых технологий. Используйте сложные пароли, двухфакторную аутентификацию и регулярно обновляйте программное обеспечение. Будьте осторожны с подозрительными ссылками и файлами, которые могут содержать вредоносное ПО."
+    },
+    {
+      "id": "011",
+      "title": "Как начать инвестировать в криптовалюту",
+      "img_url": "https://img.freepik.com/premium-photo/double-exposure-digital-america-map-hands-typing-laptop-background-research-strategy-concept_258654-3957.jpg?w=1060",
+      "published_at": "2022-12-05T10:15:00Z",
+      "content": "Инвестиции в криптовалюту могут быть прибыльными, но требуют тщательного анализа рынка. Начните с изучения основ блокчейна и выберите надежную биржу для торговли. Не вкладывайте больше, чем можете позволить себе потерять, и держите свои активы в безопасных кошельках."
+    },
+    {
+      "id": "012",
+      "title": "Тренды в мобильной разработке",
+      "img_url": "https://telegra.ph/file/48f852ae219b9287c3c85.png",
+      "published_at": "2022-11-20T12:00:00Z",
+      "content": "Мобильная разработка продолжает развиваться. Flutter и React Native становятся популярными фреймворками для кроссплатформенной разработки. Также растет спрос на приложения с поддержкой AR/VR и искусственного интеллекта."
+    },
+    {
+      "id": "013",
+      "title": "Как подготовиться к техническому собеседованию",
+      "img_url": "https://img.freepik.com/free-photo/interlinked-computers-data-center-creating-server-network_482257-118130.jpg?t=st=1746361110~exp=1746364710~hmac=a1b42bd06fac9540b00fbfa630d95ed31680dda46edd9fac7f95cfebdbc1aceb&w=1380",
+      "published_at": "2022-10-15T08:30:00Z",
+      "content": "Техническое собеседование требует подготовки. Изучите основные алгоритмы и структуры данных, потренируйтесь решать задачи на платформах вроде LeetCode. Также будьте готовы ответить на вопросы о вашем опыте и проектах."
+    },
+    {
+      "id": "014",
+      "title": "Как создать свой первый сайт",
+      "img_url": "https://aktt.org/media/cached-resp-images/images/specialties/132004_1200.webp?version=26b783ec1f927cb1b1ae60e7c5188f5e",
+      "published_at": "2022-09-10T11:45:00Z",
+      "content": "Создание сайта начинается с выбора платформы. WordPress идеально подходит для блогов, а HTML/CSS/JavaScript — для кастомных решений. Используйте хостинг-провайдеры, такие как Netlify или Vercel, чтобы опубликовать сайт в интернете."
+    },
+    {
+      "id": "015",
+      "title": "Как работать с API",
+      "img_url": "https://img.freepik.com/free-photo/equipment-data-center-workplace-used-monitoring-performance_482257-114692.jpg?t=st=1746361039~exp=1746364639~hmac=cd4e147e0fab406fa5cd33b79eb91bed9ea0994d8a658f1b1545068cf213d0bc&w=1380",
+      "published_at": "2022-08-05T13:30:00Z",
+      "content": "API позволяют взаимодействовать с внешними сервисами. Изучите основы REST и GraphQL, чтобы эффективно работать с API. Используйте инструменты, такие как Postman, для тестирования запросов. Не забывайте про безопасность и аутентификацию."
+    },
+    {
+      "id": "016",
+      "title": "Как научиться писать чистый код",
+      "img_url": "https://img.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg?t=st=1746361062~exp=1746364662~hmac=42274c8850342bfce1b96f1c6720f5394d331b1db52ee68573709c0d6a2c1eb7&w=1060",
+      "published_at": "2022-07-01T09:00:00Z",
+      "content": "Чистый код — это код, который легко читать и поддерживать. Следуйте принципам SOLID и DRY. Используйте понятные имена переменных, пишите модульные тесты и регулярно рефакторите код."
+    },
+    {
+      "title": "",
+      "img_url": "",
+      "published_at": "2025-05-11 11:58",
+      "content": "",
+      "id": "TdWVy88"
+    },
+    {
+      "title": "",
+      "img_url": "",
+      "published_at": "2025-05-11 11:58",
+      "content": "",
+      "id": "P8VacQl"
+    },
+    {
+      "title": "Мерлин в стиле поп арт",
+      "img_url": "data:image/webp;base64,UklGRjIPAABXRUJQVlA4ICYPAADQQACdASq5AHcAPt00t1uooiiomaEQG4lsAMqyGViejuaHjPebQeuSfNJfZ/33qv/uvqGf2joe+Y/zbv+z60v7n6hv9N/yXW6+hr4V/w+/2K16WxfouxDiZW8Oz3904yiD/5Hw81Cc8j4TfMQLUNUksMkFw1HGsks74OouI8i8uPZYNmIrBI82Si+zdqA8RYn+9qxTdhlZB9eEJYeeU1jieHwltuAgggGppdrGcMVBo9hfdSc1g4qkjJ06zwoCiRk5EsoHubsd1njTkk7Qj8iimrJwWVSpggLWajtDVOD6E88gxg626XvM3IPk+mx9tIu4DOZ2Z12DF8zTVI8+U07kE5cIDdgTwyxWmf/URnPPbE6AiV1zfC6eTn+W9C41QCB82myWlzgAjT9mYveHandgv6Dl0Bt/B48pmg0AWovXq2F358hapSMls0/nPlaKuP+XpLMlsG37CKW0naI69/mtMeKHsYOPLNNp8KslaRXc3bfIWw9orw1m+4zucUS6yXgA0FhPl7J4wOs8BUuYxi1ho9XdjTs0PhqFucxg9b/MT8Zr54Yx9HdxLRXJtIwEBFGaW3UstiwJCnfwSInD77f0tJKyjItpt/LWClOqYtzyHz/uqPYDONJnGMMM6EefBRZ90eqvPqgZSDlHJcQF16L5xTjbJ6UFCSM7/Kn5ADQAffBu4JtLuxQ0LHNx/XEVAAD+88Gx+RmOWNc4Fkoxw+aSh24YX7zOWP5NkeEf+0qxJ1DdqW362y1wfm0/YbuSoOtCiNiLGeVFHw/yzRZhqsce08o+k5yZ5qSNP6BoVkCQ7UHsbAbjU7MbrX77aqY5gZFF8+iTfJgStRuvG4DRpO8li6zu8yPaUk+iCvp6ZDQyJKO3b5O2dAPQtfu6JlrNBF1RMxLriSh+H+sMi30JB41OKC+PKv9f+iKqYw/833BHXWlTwGteAzodjTcN4H1KqXLSDWQ91Xjj85Tf3OZycNGlWJtOI31P1EmsnvLYoWvGa4DPkvCnpbzWe+dQQJp5WJyRv/XKSRWfPvTXAm/rDUD7KO44GvoDjRqsoasxRsGWrE/6jvX2W4GnFGPRIGSGTCOPOvJIuJSmvjKO+PaIimA2Jx0ZC/ZvTvBH0wBoPbOcUGFZXC6aef4FyUD2X6ZGqD1QRL6TH+4ZyNB0+PAyPTWbFO6cwFqWEq5RCTx9MraoHAgFmNS6N4hqngGEVhNkTPr3XN4eT3D7B02C4/V3TMRXTuP0bUbH/bCA+r1AZOa+lcM7ruvOgzqtIaEESGA1TQAamI5JE9NmuURBuoWWSs5xGiLID7nOuv3bswY/qMArg4l0AXaqglQ+YK/z5I/VbOVye58nr5Zn240hv4DgyikAh6Ywz7/Z7XzDEEnYjlVGzzc0hC9TGntAwdFE+FzBAJGL0kUrZb5Uj2TlFZ7BEO/FZqMh7M5vAJp029mvssrRHwWqkkZ7f6jEEyJROwUTEoejvCFdKhuZ1Sd4KvSowarrxKSOpELboYd5fJ6pxGCQgFm2D/MSIYryyWnYXgMdSbi91QB1XJBbFG7mxp8C3XYB4YPUXeCxq5mCUazbrHgU6O8Z6MS7CL/NsCNbpUNd7hPq7XJyeq3OSf2ptf0MU1AlI+NvO+DEnK1HM/ENNJC/y+V541UH1p2i26M5vowUcnmuVVqGhtCKwkXxWkpGFqf/Jd8ATPLiH9lojbVDkHUmaPztozCP9ezmcXuVhK2KYF/WgOGGvn+dgaqpdq8jlIZ0CcFb8/0w8yMIBeSw1T43f6j2I5d2F+4jt+wqm/F1YADtpY8IGspzK3p5RQxMliNuoPMDMuYjSFCFglNhAJlcGDSzPbDCJPJb3E+O8kmo0FPpCdMgY2Os6dv6zsfQg3OE/b8pnciVx2zX1iqmObzq8tqejgsu2xRuOdNFBXnExJkOe9jJDmJ527ERO7M/C5Ye+gIVuz9ACXtj1ZFQkVL1v1RvQV844tCoB8g3p+ZUl1MO2SIbDYfljHYl13h+1TsCzjT5F0pl2LO3wBBCKhNsE0bJursvGuRqniDNkqw1C037do1vixenwO3u88dO/3A1vBEa0rfIXIRUVYtGWJuNkmgezNMzwVshQnjsTRHmVX2uEtsgCthCO9bHoZv6KzSkaHP5GYokHLkgTp3Oi9qpyTih16mvSdnrrhCn2FhGwHj0IcGfPHRYf6zXa+bV5QdHcReGCFR0UhjYG3vXNUxkjtMsBjqDUwHentOt+FLxd4lqY94IyuYRKL4+tWa9LmhjgjlU4iil8zaxU0G8hyWXIn5iAbi4rb87SxLr4TyuI1ubbX18pDsFgEu5pUevUwUB04qwjOpetxvvWmANLEDefjKX9b4i/l+Mm88b71WFrLN4ScM/xdC2hDcFrP70wE6GPC8F20sJXvIMCsqywP2QhImsScH/VUsfFShXZGdKjYfF/nk/8VaueGcwGuXc3UGI8/Wg/VUm+MNNIdf8cLFehQrBcS5qrsig/UST1laqO2ZhKhnnDG0i2anbalwlUtDxC9ve+tinSL0WJ2DuUyC9R5TY1/lBFMSOvzkv2k7CoqeZOYqOpYEXT/WFWXarMnt1JueWKjAnojcPCHhCJ2QW3c3OZhfG95vehLshnRWmHs7Byq2CddRtso6UAN6hEkcnPCBE0ig1GQCBsHjTU35kINUQOgHTzYVhf1PGtVFwcBkY3FiS6V7d81gwb5qefDKKAFOOMg18SbnYpysGJfkWEMRLwLSGos93zfECQMe6uc65+jXM/vPybAAJFdB0B5rAK22xG96OwuhjpoAuvGMZ1k6u7y3RE9/wKWCUjSv5Jc7xs1s4+R1KpxngBOinIo3TKm9Ec93GDgPYTDorlnN5eIMLBYgV9JXzE89dQHKuiBaaGLQczQBbm7hyKW5ERMZ6lA5y4To6LM40CWI9Gl+POWsL6Jlvs2CXXU+eD9fZHA7G18BAaufhGQkbXw7YgjUc6K8YwITLtBBVyc93a/BduDYMPtsoyKde144Uoc7p+O/bzpymgDJexCk8ukZq8WX8M5xnN9IQQWyI/69mksv6UoqanBFv3txoJSSUZnZwrXU0hPCfra5XMgZlelIVitXHj7DR6V7JNNOvQtD24swWG1tTcYugCagYVFXQCNfF51yHMfL1RYNqKoixPdR7AgfKMiKj/QZZCFuhTwG+VKFP9ip+mYYMwAUoGpxCclCYstGnPJlIAArTESgBECpbsqZ6ISCOujTQUIZrygiPBoLRtSTek9EbMoQJPp43BTxvq99SHNP8SSpAtCIsG7Of1tM0As6VKc9ltP9mEi1tBo2deZK6kn8ebPIScJi/MQHwBPFBcBBID29Hza3bfvozkJb/NF7M9LT/IWlcwl+OgKeWz8DZ6Cv9C7ZuJL5bwbYe5FgpSzDU53QGWtx10kgg1JH/oCxDDTMM4IjaImMZIpCR/ER2HvwmkfJ39e2T5OUi3t+RH47uPSrEQleYLRnfAnRVsM/ptSRpkRjmXHCZ2sPeTc28Pf5nDkQMAqTA0EEoJDhu+8GJEBgl3xIGo/IRx7SCSPYttK/L8jVLsXtyQaQm8c08GoZeZrZuNm3h5sLa0cyj98BbCLEFA+nVc3OZL2azZ9JoE83G0BCJCTaCySXAlEgBHMVgSxnH9eNkx7U3u716srAYzCrl+fdS8le2KqsjGdrjV9tG5yewxGVqzxb6ldCwcid6BWkFKzP936V4H9sG/oWljGBkZBnEFuxdj1/+8b/HqpRIZLN04hjNSwLUTHiU6jOVAYmN0q8nXbWC+o5dmhaZ2TEqS1ElR51A1N7cKL890LI3uOwcAE+F5up6bmEbht+jhTw7WGDTPwcSwStGl8lTFNkaI7QHeSN0W3cbi038VyFmf46345OB0fUWurBMdSUEzUadkfEfrvpgp1j4XgOjwA0PrJC9nJ15/sr3T6AM+VsfW1b425hJkl/itM9Ado96g2qS+dE0P1jqdu09QYoyfgC6OymUYiFWBtGCvgnUS7U2iH0eVB0W6KK6gsO56o9isy7LIAKT0LSEnAC//uB+ZVV6X8BjBprIOERl5xNsuTU4Mg5NVcdUaluhYJszwdiF1nhmeP43cWBkEZDqfSTH6KBcBJuNidvtZXH42VrRwqL/tKlNPXM23XZ630TB92/2gN7yXstfBFoKdQGnKwIe1lOg9nRfAkY0Jhu4hMAWgcxRGkHYETO7ThF3gETz8CNSUGjMXwMmWHJHMmx9vldc1ExickgXFxBlx1yj1NPxDxz7Eeg+setSEC6vtTqfMx0lpgNhxGB+x4ccMHHxPb0samwsseFVZt1Bigkw/vLNbstAX0n33elNzEqXOGoXKxck7ejtpFqiJJ4Adz653nsWfGKrnKiGXG2r/TqjuowqMojYRY5yjej1EYyydIrIrf6TmJuEpjVJaQfKuiiY5UqRX/EBjN/FV4q4cXrpisPEPRUE/sCXoXUzILCoiEbHD6AKGEytzslOOopUxepY/xCepy4/qqs++Mx5mD+yF/rlnXirdIT61quRF1aOg1PQwfqs8011MZOYn5B+GIXCBHHvp1PtW2w3SouvVL0bZMFcZJ6imz1tQQW1MX+k4sotYh4ZUe7yyXi+5mLpZpZjPfa9FQTGYPwH7afGhwzVnj4rnr3mbuTFtBhCKQb64Qk9jbW1BaDDcQ5EkOog/D3C+5C7gQMuwFjelifuG1QiLQfWYQkgs7k9t7FgzekE3qRc6JmccDy/NBwRsP3xv3PV+QyAYCyd+7fqCeHLRjsVy4sHsk3HqxteY9+/G6gCVy/Mtj1cyiK7lUegEX0VyiYa/AwhQ3zEdjqDK9nxuo+w5QwpsjyQU/KF5U/n0zEhXAUylzvMyxllam5g55mipM/mk2GZOiWSKifCze0Mb8AJlHnpUaEWjrekLCTZBBDF+X0XSaJ+dGByh47PLejDbahfuuVq44vwD0keRAYRHHbGPw00YjBq0/vcx+HWPHid/yHVr5JN7TFGDfseVAMcgDUVhRCQ4qFv6h87mbMKizL9SWmD7twqRqs7O9A628W/ga7WUzdhKG8tCaMpXfs/kOi1wWaPwe/BXSv6v2UybARoeVaLrl/kZ0Ac6yxK6GGdRZbUlUkseWWI1EOa9tu0AvLxJ6bIHDpKcQCj59g7zJmiVVueWc/Ej6Xjyb8roBoG7ASMkAAAAA==",
+      "published_at": "2025-05-11 12:11",
+      "content": "Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие, Ну какое-то такое событие,",
+      "id": "Fl2q0VT"
+    },
+    {
+      "title": "Как миньоны селфи делали",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7aoZzcuQyQjq_AyiGGqOK9hHxvissw7T_yA&s",
+      "published_at": "2025-05-11 13:04",
+      "content": "ывдлаыдлваодылвоадлыводыводыовадывоаыдвл ывдлаоыдлвоадылвоа ывдлаоыдвоа ывдлаоыва ывлаоыв абывазшоыва ывашоыва ывжаоыдвлаты ваыовадыв тазщоыват ывжщоыаь ывахщылвахщылващлыва ыващзыва ызвшаоы вадывтаыт аьтйу уьк цьт укьт уьтц укьт цукзоцукт цукьт цу ацау дйуацэфэцкщаом п",
+      "id": "-0oJjKE"
+    },
+    {
+      "title": "123",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YSMewGTU0lJlsfYyp5hJ0RU6DmfxbAJ3gw&s",
+      "published_at": "2025-05-11 13:13",
+      "content": "123",
+      "id": "288geKV"
+    },
+    {
+      "title": "c",
+      "img_url": "c",
+      "published_at": "2025-05-11 13:49",
+      "content": "c",
+      "id": "3bHjgD4"
+    },
+    {
+      "title": "1",
+      "img_url": "1",
+      "published_at": "2025-05-11 13:50",
+      "content": "1",
+      "id": "jorL_dH"
+    },
+    {
+      "title": "2",
+      "img_url": "2",
+      "published_at": "2025-05-11 13:52",
+      "content": "2",
+      "id": "IuyfsAQ"
+    },
+    {
+      "title": "Мишки",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlnQgiMGScuv1c0Kbhm5wl_078dfGTxGs2VQ&s",
+      "published_at": "2025-05-11 13:53",
+      "content": "Описание товараКартинка, распечатаннаяпищевыми чернилами на сахарной бумаге.\nСахарная бумага - это тонкий лист мастики. Картинки на сахарной бумаге получаются очень яркими, сахарная бумага не просвечивает и гораздо толще вафельной.\nСахарная бумага сладкая на вкус и имеет приятный ванильный аромат.\nКартинку на сахарной бумагеможно положить на мастику, плотный нежирный крем (который не отделяет влагу), на застывший айсинг или шоколад.\n\n\nСрок годности картинки 1 месяцс момента печати, однако мы рекомендуем использовать сахарные картинки в течение 7 дней во избежание высыхания бумаги.\nХранить при комнатной температуре в темной месте и плотно закрытой упаковке.\nОтличия вафельной и сахарной бумаги\nОтправить свой макет для печати на сахарной или вафельной бумаге",
+      "id": "Cq_1wsH"
+    },
+    {
+      "title": "Кот-помогатор и правила общения  с ним",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSORRGTLZaGleLmzyiBRn06TsBpQzSuP0yGJw&s",
+      "published_at": "2025-05-11 19:39",
+      "content": "Это план статьи",
+      "id": "Tc50Etu"
+    },
+    {
+      "title": "Правила качественного отдыха",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA2eVTQQrLcDkGCv0oijpgJ8ByIfDylBukQw&s",
+      "published_at": "2025-05-11 19:40",
+      "content": "Современный ритм жизни зачастую оставляет мало времени для полноценного отдыха. Однако именно качественный отдых является ключом к поддержанию физического и психического здоровья, повышению продуктивности и улучшению качества жизни. Чтобы отдых был действительно эффективным, важно соблюдать несколько простых, но важных правил.\n\n1.Разделение работы и отдыха\n\nОдна из главных ошибок — смешивать работу и время для себя. Отключите уведомления на телефоне, закройте рабочие письма и постарайтесь абстрагироваться от профессиональных обязанностей. Это поможет мозгу переключиться и начать процесс восстановления.\n\n2.Активный и пассивный отдых\n\nКачественный отдых включает два типа: активный и пассивный. Активный отдых предполагает физическую активность — прогулки на свежем воздухе, занятия спортом или танцами. Это помогает снять мышечное напряжение и улучшить кровообращение. Пассивный отдых включает чтение книг, медитацию или прослушивание музыки. Он способствует расслаблению нервной системы.\n\n3.Соблюдение режима сна\n\nСон — основа качественного отдыха. Взрослому человеку необходимо 7–9 часов сна в сутки. Спать нужно в комфортной обстановке: темная комната, удобный матрас и оптимальная температура (около 18–20°C). Старайтесь ложиться и просыпаться в одно и то же время, чтобы выработать стабильный биоритм.\n\n4.Отдых на природе\n\nГородская среда часто перегружает нашу нервную систему. Прогулки в парке, поездки за город или даже просто сидение на скамейке рядом с деревьями могут значительно снизить уровень стресса. Природа способствует естественной релаксации и восстановлению внутреннего баланса.\n\n5.Ограничение гаджетов\n\nСмартфоны, компьютеры и телевизоры стимулируют мозг, что мешает полноценному отдыху. За час до сна постарайтесь отказаться от экранов. Вместо этого займитесь чем-то успокаивающим — например, почитайте книгу или сделайте дыхательные упражнения.\n\n6.Эмоциональное восстановление\n\nОтдых — это не только физическое, но и эмоциональное восстановление. Общайтесь с близкими, занимайтесь любимыми хобби или попробуйте что-то новое. Положительные эмоции помогают снять стресс и зарядиться энергией.\n\n7.Здоровое питание\n\nПравильное питание играет важную роль в отдыхе. Избегайте переедания и употребления тяжелой пищи перед сном. Отдайте предпочтение легким блюдам, богатым витаминами и минералами. Чашка травяного чая или теплого молока может стать отличным завершением дня.\n\nЗаключение\n\nКачественный отдых — это не роскошь, а необходимость. Соблюдая эти правила, вы сможете не только восстановить силы, но и повысить свою работоспособность, улучшить настроение и наслаждаться жизнью. Главное — помнить, что отдых должен быть осознанным и регулярным. Уделите время себе, и ваше тело и разум обязательно скажут вам \"спасибо\".",
+      "id": "dzaEqJZ"
+    },
+    {
+      "title": "Особенности переноса текста",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGeovajAeDS88GntHYH7HjOuhaIK3TIWaxCA&s",
+      "published_at": "2025-05-11 19:41",
+      "content": "Скопировать ссылку \"Особенности переноса текста\"\nПеренос текста в CSS происходит по определённым правилам, которые могут зависеть от языка и заданных CSS стилей (включает свойстваword-break,line-break,white-space,text-align,text-justifyиhyphens). Вот некоторые правила из спецификации:\nОбязательные переносы:текст обязательно переносится на новую строку, если есть символы перевода строки (например,\\n).Мягкие переносы:это такие места, где текст переносится на новую строку, если он не умещается в текущей строке. Сюда относятся пробелы и другие символы-разделители. В некоторых языках между символами могут быть и другие мягкие переносы, которые зависят от языковых правил.Дефисы и слоги:в алфавитных языках, таких как английский и русский, слова могут быть разбиты на слоги и перенесены с использованием дефиса и языковых правил (кстати, язык определяется по HTML-атрибутуlang). Автоматическим переносом слов с использованием дефиса управляет свойствоhyphens.Особенности языка:некоторые языки имеют специфические правила переноса текста. В идеографических языках, таких как китайский, и слоговых языках, таких как корейский, перенос слов и разрыв строк происходит в других местах (например, между корейскими иероглифами может быть разрыв, даже если между ними нет пробела).Когда определены возможные места переноса, подбирается подходящее место, учитывающее заданные стили. В случае с длинными словами, ссылками или другой последовательностью символов, которые не умещаются в одной строке, мы можем указать браузеру, как следует переносить текст, используя свойстваoverflow-wrapиword-break.\nТакже свойствоword-breakиграет важную роль в CJK языках (китайский, японский и корейский): значениеword-break:keep-allзапрещает разрывать слова внутри CJK текста, где разрывы строк могут быть нежелательными между определёнными иероглифами.",
+      "id": "d26dasb"
+    }
+  ],
+  "comments": [
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 15:30",
+      "content": "moy perviy",
+      "id": "1"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 18:12",
+      "content": "Комментарий!",
+      "id": "vueJkr_"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 18:14",
+      "content": "Комментарий 3!",
+      "id": "8hsLUm7"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 18:14",
+      "content": "Комментарий 4!",
+      "id": "sDPMn_9"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 18:15",
+      "content": "Комментарий 5!",
+      "id": "9wPdMw1"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 18:18",
+      "content": "Комментарий 6!",
+      "id": "_H-cEj5"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 18:18",
+      "content": "Комментарий 6!",
+      "id": "dic57mw"
+    },
+    {
+      "author_id": "01",
+      "post_id": "005",
+      "published_at": "2025-05-09 19:31",
+      "content": "Еще проверочка",
+      "id": "sIB0XdR"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:20",
+      "content": "123",
+      "id": "bVKFSCw"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:21",
+      "content": "aqwer",
+      "id": "Qby_gdP"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:24",
+      "content": "23:23 загадывай желание",
+      "id": "l0KkY0h"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:26",
+      "content": "!!!",
+      "id": "xD25OOy"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:27",
+      "content": ")))",
+      "id": "m-gSMWh"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:30",
+      "content": "1111",
+      "id": "fHj4PdD"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:35",
+      "content": "УРАААААААААААА!",
+      "id": "NfJMc5W"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:38",
+      "content": "хеллоу",
+      "id": "4Sia6gS"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:44",
+      "content": "хеллоу again",
+      "id": "x2Nh-FP"
+    },
+    {
+      "author_id": "01",
+      "post_id": "003",
+      "published_at": "2025-05-09 20:49",
+      "content": "Еще разок",
+      "id": "RjMmb-3"
+    },
+    {
+      "author_id": "0SBMOD-",
+      "post_id": "001",
+      "published_at": "2025-05-09 20:50",
+      "content": "Ура,я  делаю свой комментарий",
+      "id": "ZrnxVxy"
+    },
+    {
+      "author_id": "0SBMOD-",
+      "post_id": "001",
+      "published_at": "2025-05-09 20:54",
+      "content": "something new",
+      "id": "AuHE5Zs"
+    },
+    {
+      "author_id": "01",
+      "post_id": "001",
+      "published_at": "2025-05-10 17:14",
+      "content": "ДОбавлю-ка еще один комментик",
+      "id": "UMrCkKU"
+    },
+    {
+      "author_id": "0SBMOD-",
+      "post_id": "007",
+      "published_at": "2025-05-11 09:55",
+      "content": "Комментарий к статье про выбор первого ноутбука",
+      "id": "1HRUmwh"
+    },
+    {
+      "author_id": "01",
+      "post_id": "004",
+      "published_at": "2025-05-11 17:09",
+      "content": "Напишите комментарий кто-нибудь)",
+      "id": "aG8xxYT"
+    },
+    {
+      "author_id": "0SBMOD-",
+      "post_id": "002",
+      "published_at": "2025-05-14 19:46",
+      "content": " По моему мнению тема не раскрыта, хотелось бы больше фактов",
+      "id": "y4nJ6LN"
+    },
+    {
+      "author_id": "0SBMOD-",
+      "post_id": "005",
+      "published_at": "2025-05-14 20:15",
+      "content": "какими ИИ пользуешься сам?",
+      "id": "D39I18P"
+    },
+    {
+      "author_id": "0SBMOD-",
+      "post_id": "005",
+      "published_at": "2025-05-14 20:18",
+      "content": "Lj,fdbnm\n",
+      "id": "NgC75wn"
+    },
+    {
+      "author_id": "zFB8Fr4",
+      "post_id": "001",
+      "published_at": "2025-05-14 20:24",
+      "content": "а что так можно было?\n",
+      "id": "3n7lJVy"
+    },
+    {
+      "author_id": "01",
+      "post_id": "002",
+      "published_at": "2025-06-16 20:12",
+      "content": "Напишу-ка еще один комментарий",
+      "id": "E3msF5S"
+    }
+  ],
+  "sessions": [
+    {
+      "hash": "0.06529963244710823566663293604506179690361022949219",
+      "user": {
+        "id": "01",
+        "login": "author",
+        "password": "123456",
+        "registretedAt": "2025-01-01",
+        "roleId": "0"
+      },
+      "id": "1"
+    },
+    {
+      "hash": "0.11770473522339464089725424855714663863182067871094",
+      "user": {
+        "id": "0SBMOD-",
+        "login": "111111",
+        "password": "111111",
+        "registretedAt": "2025-05-06 22:03",
+        "roleId": "2"
+      },
+      "id": "RNA-50S"
+    },
+    {
+      "hash": "0.61158044879404527272015457128873094916343688964844",
+      "user": {
+        "id": "01",
+        "login": "author",
+        "password": "123456",
+        "registretedAt": "2025-01-01",
+        "roleId": "0"
+      },
+      "id": "PlkTqi0"
+    },
+    {
+      "hash": "0.78789620298728957337175415887031704187393188476563",
+      "user": {
+        "id": "0SBMOD-",
+        "login": "111111",
+        "password": "111111",
+        "registretedAt": "2025-05-06 22:03",
+        "roleId": "2"
+      },
+      "id": "W7xvYLP"
+    },
+    {
+      "hash": "0.16995972182961471830253685766365379095077514648438",
+      "user": {
+        "id": "01",
+        "login": "author",
+        "password": "123456",
+        "registretedAt": "2025-01-01",
+        "roleId": "0"
+      },
+      "id": "3ilC7aM"
+    },
+    {
+      "hash": "0.07483452885416785882455315004335716366767883300781",
+      "user": {
+        "id": "01",
+        "login": "author",
+        "password": "123456",
+        "registretedAt": "2025-01-01",
+        "roleId": "0"
+      },
+      "id": "HkjHW1N"
+    },
+    {
+      "hash": "0.16577514735530440859179179824423044919967651367188",
+      "user": {
+        "id": "zFB8Fr4",
+        "login": "lolo",
+        "password": "121212",
+        "registretedAt": "2025-05-07 14:54",
+        "roleId": "1"
+      },
+      "id": "EsCl2T5"
+    },
+    {
+      "hash": "0.53067426686694751936101965839043259620666503906250",
+      "user": {
+        "id": "01",
+        "login": "author",
+        "password": "123456",
+        "registretedAt": "2025-01-01",
+        "roleId": "0"
+      },
+      "id": "CIp19qR"
+    }
+  ]
+}
